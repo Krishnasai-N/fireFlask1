@@ -10,7 +10,7 @@ from PIL import Image
 from werkzeug.utils import secure_filename
 import os
 
-model = load_model('model/model.h5')
+model = load_model('model.h5')
 
 app = Flask(__name__,template_folder='template')
 
