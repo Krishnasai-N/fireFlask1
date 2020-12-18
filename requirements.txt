@@ -1,0 +1,5 @@
+flask==1.1.2
+tqdm==4.54.1
+Keras==2.4.3
+opencv-python==4.4.0.46
+numpy==1.19.4
