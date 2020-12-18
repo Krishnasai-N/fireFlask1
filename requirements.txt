@@ -5,3 +5,4 @@ opencv-python==4.3.0.38
 numpy==1.19.4
 wheel==0.36.2
 tensorflow==2.2
+h5py==3.1.0
