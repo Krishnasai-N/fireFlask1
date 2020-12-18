@@ -11,7 +11,7 @@ from werkzeug.utils import secure_filename
 # converter = tf.lite.TFLiteConverter.from_keras_model(export_dir)
 # model = converter.convert()
 
-model = load_model('model.h5')
+model = load_model('./model.h5')
 
 app = Flask(__name__,template_folder='template')
 
