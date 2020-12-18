@@ -5,13 +5,13 @@ import numpy as np
 from tqdm import tqdm
 import os                   
 from werkzeug.utils import secure_filename
-# import tensorflow as tf
+import tensorflow as tf
 
-# export_dir='model.h5'
-# converter = tf.lite.TFLiteConverter.from_keras_model(export_dir)
-# model = converter.convert()
+export_dir='model.h5'
+converter = tf.lite.TFLiteConverter.from_keras_model(export_dir)
+model = converter.convert()
 
-model = load_model('blob/master/model.h5')
+# model = load_model('blob/master/model.h5')
 
 app = Flask(__name__,template_folder='template')
 
