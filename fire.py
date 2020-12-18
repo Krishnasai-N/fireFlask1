@@ -4,11 +4,7 @@ import cv2
 import numpy as np  
 from tqdm import tqdm
 import os                   
-from random import shuffle  
-from zipfile import ZipFile
-from PIL import Image
 from werkzeug.utils import secure_filename
-import os
 
 model = load_model('model.h5')
 
